@@ -1,0 +1,109 @@
+*
+{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+section
+{
+    width:100vw;
+    min-height:100vh;
+
+}
+#navbar
+{
+    position:sticky;
+    top:0;
+    left:0;
+    z-index:100;
+    background-color:black;
+    box-shadow:5px 5px 20px rgba(0,0,0,.5);
+}
+.navbar .navbar-brand
+{
+    font-size:25px;
+    font-weight:800;
+    color: yellow;
+}
+#navbarSupportedContent a
+{
+color:#fff;
+border-bottom:2px solid transparent;
+font-size:20px;
+}
+#navbarSupportedContent a:hover
+{
+    border-bottom:2px solid yellow;
+}
+#navbarSupportedContent button
+{
+    background-color:yellow;
+    width:5rem;
+    border-radius: 15px;
+    color:blue;
+}
+#home
+{
+    background-color:black;
+    width:100vw;
+    min-height:100vh;
+    
+}
+#product
+{
+    background-color:white;
+
+    
+}
+#about
+{
+    background-color: yellow;
+}
+#contact
+{
+    background-color: blue;
+}
+.carousel-item img
+{
+    height:400px;
+    object-fit:contain;
+}
+.card
+{
+    width:300px;
+    height:500px;
+}
+.card img
+{
+    width:100%;
+    height:100%;
+}
+span
+{
+    color:white;
+    font-weight: normal;
+    letter-spacing: 2px;
+    text-align: justify;
+    text-indent:10px;
+}
+#image
+{
+    width:400px;
+    height:200px;
+}
+.col-3 .card
+{
+    height:500px;
+    width:300px;
+}
+.col-3 .card img
+{
+    width:100%;
+    height:100%;
+
+}
+.footer
+{
+    background-color: black;
+    color:yellow;
+}

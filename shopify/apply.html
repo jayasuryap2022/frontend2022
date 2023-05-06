@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>application form page </title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/apply.css">
+    <link rel="stylesheet" href="assets/css/apply.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <h2>Application Form</h2>
+        <form action="">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter  name">
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="email">email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email">
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="phone">phone</label>
+                <input type="tel" class="form-control" id="email" placeholder="Enter Phone number">
+            </div>
+            <br>
+
+            <div class="form-group">
+                <label for="position">position</label>
+                <select name="role" id="position" class="form-control">
+                    <option>Developer</option>
+                    <option>Designer</option>
+                    <option>Product manager</option>
+                    <option>others</option>
+                </select>
+            </div>
+            <br>
+
+            <div class="form-group">
+                <label for="resume">Resume:</label>
+                <input type="file" class="form-control-file" id="resume">
+            </div>
+            <br>
+            <button type="submit" class="btn btn-primary">submit</button>
+
+        </form>
+
+    </div>
+</body>
+</html>

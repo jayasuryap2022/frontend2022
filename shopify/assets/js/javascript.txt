@@ -1,0 +1,139 @@
+javascript is the most popular programming language
+
+javascript can change the HTML content 
+one of many javascript methods is getElementById()
+example
+document.getElementById("demo").innerHTML ="welcome";
+
+javascript can change HTML styles (CSS)
+document.getElementById("demo").style.fontsize="25px";
+
+the <script> tag 
+in html  javascript code is inserted between <script> and </script> tags 
+example
+<script>
+document.getElementById("demo").innerHTML="welcome to js";
+</script>
+javascript functions and events
+
+<!Doctype html>
+<html>
+<head>
+</head>
+<body>
+<script>
+function myFunction()
+{
+  document.getElementById("id").innerHTML="hello good morning";
+}
+</script>
+<p id="demo"></p>
+<button onclick="myFunction()">click </button>
+</body>
+</html>
+
+javascript output
+1-writing into an html  element using innerHTML
+2-writing into an html  output using document.write()
+3-writing into an alert box, using window.alert()
+writing into the browser console, using console.log()
+
+
+var - declares a variable
+let-declares a block variable 
+const -declares a block const 
+
+javascript identifiers /names
+
+identifiers are javascript names 
+identifiers are used to name variables keyword and functions
+
+a javascript name must begin with 
+(A-z or a-z)
+$ (dollar sign)
+_(underscore)
+subsequent characters may be letters, digits, underscore or dollar signs 
+
+javascript variables
+four ways to declare a javascript variable
+1.using var
+2.using let 
+3.using const 
+4.using nothing
+
+what are variables?
+variables are containers for storing data values
+example
+var a=5;
+var b=5;
+let a=120;
+let b=234;
+
+var - change anywhere 
+let - can within the block
+
+the let keyword was introduced in ES6 (2015)
+
+variables declared with let must be declared before use 
+
+variables declared with let have block scope 
+
+cannot be redeclared 
+variables declared with let cannot be redeclared
+
+operators
+1.arithmetic operators + - * *** / % ++ -- 
+2.assignment operators += -= *= /= %= 
+3.comparison operators == === != !== > < >= <= ?
+4.string operator -string and string -string 
+5.logical operator -&& || !
+6.bitwise operator &  | ~ ^ << >> >>>
+7.ternary operator
+8.type operators -  type of instance of 
+
+javascript has 8 datatypes
+1.string
+2.number
+3.bigint
+4.boolean
+5.undefined
+6.null
+7.symbol
+8.object -object array date
+
+example
+// numbers
+let length =19;
+let weight=4.6;
+
+//strings
+let color="red"
+let firstname="java"
+
+//boolean
+let a=true;
+let b =false;
+
+//object 
+const person={firstname:"java",lastname:"script"}
+//array object 
+const cars=['audi','bmw'];
+//date object 
+const date =new Date("2023-05-01");
+
+functions
+a javascript function is a block of code that is used to perform a particular task
+
+Math functions
+Math.round(5.8)
+Math.ceil(5.8) - next number
+Math.round(5.1)
+Math.sqrt(2)
+Math.abs(-9)
+Math.pow(2,3)
+Math.min()
+Math.max()
+Math.random();
+Math.floor(Math.random()*6)+1
+Math.pi=3.14
+Math.E - properties 

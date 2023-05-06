@@ -1,0 +1,14 @@
+#contact .h1
+{
+    color:white;
+    text-align: center;
+    text-transform: capitalize;
+}
+.box
+{
+
+    width:1000px;
+    height:500px;
+    margin-left:25%;
+    background-color: red;
+}
